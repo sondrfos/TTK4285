@@ -109,6 +109,9 @@ Knot& operator+=(Knot& lhs, const Knot& rhs){
 	return lhs;
 }
 
+void helperFunction(int knots, int resolution, int order, double* interpolationArray, int arraySize) {
+
+}
 
 extern "C" {
 	__declspec(dllexport) void bsplineArray(int knots, int resolution, int order, double* interpolationArray, int arraySize) {
